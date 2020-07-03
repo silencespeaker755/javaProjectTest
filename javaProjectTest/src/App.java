@@ -13,6 +13,8 @@ public class App {
             game game1 = new game();
             System.out.println(game1.getName());
         }finally{
+            Dice aDice = new Dice();
+            System.out.println(aDice.throwDice());
             System.out.println("Finish !");
         }
     }
