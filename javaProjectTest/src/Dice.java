@@ -2,7 +2,7 @@ public class Dice {
     private int number;
 
     public int throwDice() {
-        number = 6;
+        number = 5;
         return number;
     }
 }
